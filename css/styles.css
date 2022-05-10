@@ -5,8 +5,6 @@
     --text-gray: #4a4a4a;
     --color-primary: #4D41C0;
     --white: #fff;
-
-
 }
 
 * {
@@ -38,12 +36,12 @@ nav {
 
 nav h1 {
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 700px;
 }
 
 nav a {
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 400px;
 }
 
 a, a:hover {
@@ -65,7 +63,7 @@ a, a:hover {
 }
 
 .dsmovie-card {
-    width: 360px;
+    width: 100%;
     
 }
 
@@ -77,16 +75,19 @@ a, a:hover {
 .dsmovie-card-description {
     background-color: var(--white);
     border-radius: 0 0 8px 8px;
-    padding: 10px 0 20px 0;
+    padding: 10px 20px 20px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
+    min-height: 150px;
 }
 
 .dsmovie-card-description h3 {
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 700px;
     margin-bottom: 25px;
+    text-align: center;
 }
 
 .dsmovie-btn, .dsmovie-btn:hover {
